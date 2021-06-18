@@ -1,5 +1,7 @@
 # Express init app
 
+Boilerplate for new Express projects
+
 listens at port `3000`
 
 <br>
