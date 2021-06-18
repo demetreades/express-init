@@ -1,6 +1,6 @@
 {
-  "name": "express-init",
-  "version": "0.0.0",
+  "name": "express-new-app",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "start": "nodemon ./bin/www"
@@ -11,10 +11,24 @@
     "ejs": "~2.6.1",
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
-    "morgan": "~1.9.1",
-    "mysql2": "^2.2.5"
+    "morgan": "~1.9.1"
   },
-  "devDependencies": {
-    "nodemon": "^2.0.7"
-  }
+  "description": "boilerplate for new express projects",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/demetreades/express-init.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "boilerplate",
+    "crud"
+  ],
+  "author": "quorum",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/demetreades/express-init/issues"
+  },
+  "homepage": "https://github.com/demetreades/express-init#readme"
 }
