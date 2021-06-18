@@ -40,12 +40,12 @@ If you get node's version with `node -v` install some packages globally
 
 <br>
 
-## npm packages
+## Packages
 
 `npm install -D nodemon` install nodemon as a developer's dependency and change `package.json` run scripts to include `nodemon` in start command as well
 
 
-mysql2 is needed for CRUD `npm install mysql2`
+mysql2 is needed for CRUD`npm install mysql2`
 
 - [nodemon](https://www.npmjs.com/package/nodemon) npm
 - [mysql2](https://www.npmjs.com/package/mysql2) npm
@@ -95,11 +95,16 @@ mysql2 is needed for CRUD `npm install mysql2`
 `npm list` `-g` lists all packages 
 `npm list --depth 0` , 
 `npm list --depth 1`
+
+<br>
+
 ##### Finding packages
 
 `npm search package` to look for a package
 
 `npm view package` details of a package  
+
+<br>
 
 #### Update packages
 
@@ -107,11 +112,25 @@ mysql2 is needed for CRUD `npm install mysql2`
 
 `npm update` to update all local packages 
 
-`^ major 4.x.x` , `~ minor 4.4.x`
+`npm install npm@latest -g` for the latest version of npm
 
-##### `npm` update
+<br>
 
-`sudo npm install npm@latest -g` for latest version of npm
+#### Versioning
+
+
+[npm semantic versioning](https://docs.npmjs.com/about-semantic-versioning) 
+
+<br>
+
+ `tilde (~) and caret (^)`
+
+`^ 4.x.x updates to latest minor version` ,
+ 
+ `~  4.4.x updates to latest patch version`
+
+
+
 
 <br>
 
