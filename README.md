@@ -82,6 +82,8 @@ mysql2 is needed for CRUD `npm install mysql2`
 
 #### Managing packages
 
+[n](https://www.npmjs.com/package/n) version manager `sudo npm install n -g` 
+
 `npm install package` `-i` `-g` install as dependency
 
 `npm install package@4.17.3` `-i` `-g` install a particular package version
@@ -93,17 +95,6 @@ mysql2 is needed for CRUD `npm install mysql2`
 `npm list` `-g` lists all packages 
 `npm list --depth 0` , 
 `npm list --depth 1`
-
-##### other packages
-
-`sudo npm install n -g` n version manager
-
-`sudo npm install live-server`
-
-`sudo npm install nodemon`
-
-`sudo npm install express`
-
 ##### Finding packages
 
 `npm search package` to look for a package
@@ -120,13 +111,17 @@ mysql2 is needed for CRUD `npm install mysql2`
 
 ##### `npm` update
 
-`sudo npm install npm@latest -g` for latest `npm version
+`sudo npm install npm@latest -g` for latest version of npm
 
 <br>
 
 #### Configuration
 
+<br>
+
 [npm config](https://docs.npmjs.com/cli/v7/using-npm/config)
+
+<br>
 
 `cat package.json` lists package configuration
 
