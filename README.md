@@ -80,9 +80,11 @@ mysql2 is needed for CRUD`npm install mysql2`
 
 <br>
 
-#### Managing packages
+### Managing packages
 
 [n](https://www.npmjs.com/package/n) version manager `sudo npm install n -g` 
+
+<br>
 
 `npm install package` `-i` `-g` install as dependency
 
@@ -98,7 +100,7 @@ mysql2 is needed for CRUD`npm install mysql2`
 
 <br>
 
-##### Finding packages
+### Finding packages
 
 `npm search package` to look for a package
 
@@ -106,7 +108,7 @@ mysql2 is needed for CRUD`npm install mysql2`
 
 <br>
 
-#### Update packages
+### Update packages
 
 `npm update package` to update a particular package
 
@@ -116,7 +118,7 @@ mysql2 is needed for CRUD`npm install mysql2`
 
 <br>
 
-#### Versioning
+### Versioning
 
 
 [npm semantic versioning](https://docs.npmjs.com/about-semantic-versioning) 
@@ -134,7 +136,7 @@ mysql2 is needed for CRUD`npm install mysql2`
 
 <br>
 
-#### Configuration
+### Configuration
 
 <br>
 
@@ -150,17 +152,23 @@ mysql2 is needed for CRUD`npm install mysql2`
 
 `npm config set prefix /Users/dev/path`  to change local prefix path
 
+<br>
+
 ##### Set
 
 `npm config set init-author-name "YOUR NAME"`
 
 `npm set init-license "MIT"`
 
+<br>
+
 ##### Get
 
 `npm config get init-author-name`
 
 `npm get init-license`
+
+<br>
 
 ##### Remove
 
